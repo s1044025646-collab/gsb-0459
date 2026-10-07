@@ -1,0 +1,20 @@
+{
+  "name": "sieve-curve-backend",
+  "version": "1.0.0",
+  "description": "本地土样筛分累计通过曲线与粒径区间核验后端（TypeScript + Node.js + SQLite）",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js",
+    "cli": "node dist/src/cli.js",
+    "demo": "node dist/src/cli.js demo",
+    "test": "tsc -p tsconfig.json && node --test dist/test/curve.test.js dist/test/store.test.js"
+  },
+  "keywords": ["sieve", "gradation", "particle-size", "sqlite"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dryTotalMg": 100,
+  "panMg": 10,
+  "sieves": [
+    { "diameterMm": 2, "retainedMg": 20 },
+    { "diameterMm": 1, "retainedMg": 30 },
+    { "diameterMm": 0.75, "retainedMg": 0 },
+    { "diameterMm": 0.5, "retainedMg": 40 }
+  ]
+}
