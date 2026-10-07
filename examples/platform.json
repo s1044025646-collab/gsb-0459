@@ -1,0 +1,10 @@
+{
+  "totalDryMassMg": 100,
+  "panMassMg": 30,
+  "sieves": [
+    { "diameterMm": 4, "retainedMg": 0 },
+    { "diameterMm": 2, "retainedMg": 0 },
+    { "diameterMm": 1, "retainedMg": 60 },
+    { "diameterMm": 0.25, "retainedMg": 10 }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sieve-analysis-backend",
+  "version": "1.0.0",
+  "description": "本地土样筛分累计通过曲线与粒径区间核验后端（仅 API 与 CLI）",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=23.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --disable-warning=ExperimentalWarning --test dist/test/*.test.js",
+    "start": "tsc -p tsconfig.json && node --disable-warning=ExperimentalWarning dist/src/server.js",
+    "cli": "tsc -p tsconfig.json && node --disable-warning=ExperimentalWarning dist/src/cli.js",
+    "demo": "tsc -p tsconfig.json && node --disable-warning=ExperimentalWarning dist/demo/demo.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
